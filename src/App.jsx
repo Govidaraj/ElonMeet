@@ -24,6 +24,7 @@ function App() {
       {videoCall ? (
         <div style={{ display: "flex", width: "90vw", height: "85vh" }}>
           <AgoraUIKit
+          
             styleProps={{UIKitContainer:{width:'120vw',height:'680px',backgroundColor:"#ccd9ff"},
             maxViewContainer:{height:'650px'},
               localBtnContainer: {
@@ -38,7 +39,7 @@ function App() {
       ) : (
         <>
         <div className="content">
-          <h1>Hi Welcome to Elon Native System.</h1>
+          <h1>Welcome to Elon Native System.</h1>
         </div>
         <div>          
           <button
