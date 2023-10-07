@@ -1,8 +1,7 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import AgoraUIKit from "agora-react-uikit";
+import VideoControls from "./VideoControls"; 
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +11,7 @@ function App() {
     appId: "bfa9e643634048cdb4f7fe76431ce327",
     channel: "VideoTest",
     token:
-      "007eJxTYLhWnBv24HetzdI/cx86/5wXX3Zfa9ntdzueCZxc1vF/6cdnCgxJaYmWqWYmxmbGJgYmFskpSSZp5mmp5kARw+RUYyPzn1flUxsCGRn2JdiyMDJAIIjPyRCWmZKaH5JaXMLAAADOJicL",
+      "007eJxTYFCanRFxca3nNqvKxUublfSP6LgnL7CR/Ls/UW0Gm9EXIyUFhqS0RMtUMxNjM2MTAxOL5JQkkzTztFRzoIhhcqqxkXl5smJqQyAjw4KPF5gYGSAQxOdkCMtMSc0PSS0uYWAAAGBjH8o=",
   };
 
   const callbacks = {
@@ -35,20 +34,20 @@ function App() {
             rtcProps={rtcProps}
             callbacks={callbacks}
           />
+          {/* Render VideoControls component */}
+          <VideoControls channelParameters={{ localVideoTrack, screenTrack }} />
         </div>
       ) : (
         <>
-        <div className="content">
-          <h1>Welcome to Elon Native System.</h1>
-        </div>
-        <div>          
-          <button
-        className="join"
-          onClick={() => setVideoCall(true)}
-        >
-          Join
-        </button></div>
-      </>
+          <div className="content">
+            <h1>Welcome to Elon Native System.</h1>
+          </div>
+          <div>
+            <button className="join" onClick={() => setVideoCall(true)}>
+              Join
+            </button>
+          </div>
+        </>
       )}
     </>
   );

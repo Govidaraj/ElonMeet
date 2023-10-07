@@ -12,6 +12,7 @@
   "dependencies": {
     "agora-chat": "^1.2.0",
     "agora-react-uikit": "^1.2.0",
+    "agora-rtc-sdk": "^3.6.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
