@@ -35,7 +35,7 @@ function App() {
             callbacks={callbacks}
           />
           {/* Render VideoControls component */}
-          <VideoControls channelParameters={{ localVideoTrack, screenTrack }} />
+          {/* <VideoControls channelParameters={{ localVideoTrack, screenTrack }} /> */}
         </div>
       ) : (
         <>
