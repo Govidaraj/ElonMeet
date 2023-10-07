@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import AgoraUIKit from "agora-react-uikit";
-import VideoControls from "./VideoControls"; 
+// import VideoControls from "./VideoControls"; 
 
 function App() {
   const [count, setCount] = useState(0);
