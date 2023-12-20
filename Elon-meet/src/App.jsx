@@ -11,7 +11,7 @@
 //     appId: "bfa9e643634048cdb4f7fe76431ce327",
 //     channel: "VideoTest",
 //     token:
-//       "007eJxTYFCanRFxca3nNqvKxUublfSP6LgnL7CR/Ls/UW0Gm9EXIyUFhqS0RMtUMxNjM2MTAxOL5JQkkzTztFRzoIhhcqqxkXl5smJqQyAjw4KPF5gYGSAQxOdkCMtMSc0PSS0uYWAAAGBjH8o=",
+//       "007eJxTYDDszOj5PcvkLGtTe2SaqNK+UD61BeIxZ6Oq3tgpXmwX2qrAYJyYmGianGRiaZaSZJJqZGlpYJpqkmKeZGiSkmponGiyYFJTakMgI4N0xmdmRgYIBPE5GcIyU1LzQ1KLSxgYAGLzH+A=",
 //   };
 
 //   const callbacks = {
@@ -67,10 +67,10 @@ const VideoCallWithRecording = () => {
 
   // Your AgoraRTC props and callbacks
   const rtcProps = {
-    appId: "bfa9e643634048cdb4f7fe76431ce327",
+    appId: "3aaa5cb496db4e29905e4d7b14de13a4",
     channel: "VideoTest",
     token:
-      "007eJxTYDitmGxcOnW6fe2yhefK+6cv9jx74Nd7gf+rIqXenPmVuc5FgSEpLdEy1czE2MzYxMDEIjklySTNPC3VHChimJxqbGTufkE5tSGQkYFv1VZWRgYIBPE5GcIyU1LzQ1KLSxgYALlpI5E=",
+      "007eJxTYDDszOj5PcvkLGtTe2SaqNK+UD61BeIxZ6Oq3tgpXmwX2qrAYJyYmGianGRiaZaSZJJqZGlpYJpqkmKeZGiSkmponGiyYFJTakMgI4N0xmdmRgYIBPE5GcIyU1LzQ1KLSxgYAGLzH+A=",
   };
 
   const callbacks = {
